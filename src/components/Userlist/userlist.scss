@@ -1,0 +1,32 @@
+#user-container {
+    .userlist {
+        margin: 20px 30px;
+        height: 550px;
+
+        .tbl-list {
+            box-shadow: 0 0px 5px rgba(46, 63, 85, .5);;
+            padding: 10px;
+            width: 100%;
+            // background-color: rgb(202, 199, 199);
+
+            .tbl-header {
+                tr {
+                    background-color: #337ab7;
+                    color: white;
+
+                    td {
+                        padding: 10px;
+                        width: 20%;
+                    }
+                }
+            }
+            .tbl-body {
+                    td {
+                        padding: 10px;
+                        width: 20%;
+                        border-bottom: 1px solid grey;
+                    }
+            }
+        }
+    }
+}

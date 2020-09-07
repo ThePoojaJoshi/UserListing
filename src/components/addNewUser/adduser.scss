@@ -1,0 +1,54 @@
+.adduser-modal {
+  max-width: none !important;
+  width: 600px !important;
+
+  .modal-content {
+    .modal-header {
+      color: red;
+      border: none;
+      color: black;
+      font-size: 30px;
+      font-weight: 300;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .modal-body {
+      .body-content {
+        padding: 10px;
+        font-weight: 900px;
+        
+        &>div{
+          padding: 10px;
+
+        }
+
+        input[type= text], input[type=textarea]{
+          width: 200px;
+          outline-color: rgb(204, 204, 204);
+
+          &:focus{
+            outline: none;
+          }
+        }
+        .display-label {
+          width: 50%;
+          font-weight: 500;
+        }
+        .radio{
+          display: inline-block;
+        }
+
+        .custom-select-dropdown{
+          display: inline-block;
+          width: 200px;
+        }
+      }
+    }
+
+    .modal-footer {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
